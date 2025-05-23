@@ -1,0 +1,169 @@
+<html>
+
+<style>
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: repeat;
+}
+
+nav
+{
+    display: flex;
+    padding: 2% 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-image:url("blue.jpg");
+    /* background-size: cover; */
+}
+#navbar-right
+{
+    display:inline;
+    flex: 1;
+    text-align: right;
+}
+#navbar-right li{
+    display: inline;
+    list-style-type: none;
+    padding: 5px 12px;
+    position: relative;
+}
+#navbar-right li a{
+    font-size: 30px;
+    font-weight: 500px;
+    color: #000000;
+    padding-left: 8px;
+    text-decoration: none;
+}
+#navbar-right li a:hover
+{
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px;
+    opacity:0.8;
+    cursor: pointer;
+    
+}
+.active
+{
+    background-color: rgb(109,158,233);
+    border-radius: 3px;
+    box-shadow: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.container {
+  display: flex;
+  height: 400px;
+    width: 400px;
+    margin-left: 300px;
+   
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.feedback-container {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #ddd;
+}
+
+.float-right{
+    float: right;
+    margin-top: -28%;
+    margin-right: 25%;
+}
+
+
+.feedback-img {
+    height: 90px; width: 80px;
+}
+
+.feedback-container a:hover img {
+
+    mix-blend-mode: hard-light;
+}   
+
+.footer {
+    display: block;
+    background-color: #222;
+    height: 20vw;
+    margin-top: 100px;
+    color: #ddd;
+}
+
+
+</style>
+<body>
+
+    <nav>
+        <div class="img">
+        <img id="logo" src="tgm.png" style="width: 300px; height: 100px;"> 
+        </div>
+        <div id="navbar-right">
+          <ul><b>
+            <li><a href="webhome.html">HOME</a></li>
+            <li><a href="article.html">FUNFACTS</a></li>
+            <li><a class="active">VIDEOS</a></li>
+            <li><a href="login.html" target="_self">HOW TO..?</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            </b>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </nav>
+    <div class="hover01 column" style="margin-top: 5%; margin-left: 19%;">
+        <div>
+          <figure><a href="story.html"><img src="story.jpg" style="border: 2px solid black;"></a></figure>
+        </div>
+        <div class="float-right">
+          <figure><a href="rhymes.html"><img src="rhymes.jpg" style="border: 2px solid black;"></a></figure>
+        </div>
+  </div>
+  <footer>
+    <div class="feedback-container"><img class="feedback-img" src="feedback.png"
+      alt="feedback"></a></div>
+    <div class="footer">
+  
+        <div>
+  
+            <div>
+                <pre>
+  
+                </pre>
+            </div>
+            <div class="stay-text-container">
+                <p><h1 style="color: white;">Stay connected</h1></p>
+            </div>
+            <div class="follow-text-container">
+                <p><h3>Follow us on our social media accounts to get even more refreshing content.</h3></p>
+                <img src="social.png" style="height: 150px; width: 150px;">
+            </div>
+  
+        </div>
+  
+  </footer>
+</body>
+</html>

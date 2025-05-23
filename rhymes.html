@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size: large;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+  margin-left: 300px;
+}
+nav
+{
+    display: flex;
+    padding: 2% 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-image:url("blue.jpg");
+    /* background-size: cover; */
+}
+#navbar-right
+{
+    display:inline;
+    flex: 1;
+    text-align: right;
+}
+#navbar-right li{
+    display: inline;
+    list-style-type: none;
+    padding: 5px 12px;
+    position: relative;
+}
+#navbar-right li a{
+    font-size: 30px;
+    font-weight: 500px;
+    color: #000000;
+    padding-left: 8px;
+    text-decoration: none;
+}
+#navbar-right li a:hover
+{
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px;
+    opacity:0.8;
+    cursor: pointer;
+    
+}
+.active
+{
+    background-color: rgb(109,158,233);
+    border-radius: 3px;
+    box-shadow: 2px;
+    
+} 
+
+.my-button {
+            background-color: greenyellow; /* Set the background color */
+            border: none; /* Remove the border */
+            color: black; /* Set the text color */
+            padding: 15px 32px; /* Set the padding */
+            text-align: left; /* positions the text */
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Display as a block element */
+            font-size: 16px; /* Set the font size */
+            font-weight: bold;
+            cursor: pointer; /* Add cursor pointer on hover */
+            border-radius: 5px; /* Add rounded corners */
+        }
+
+.my-button:hover {
+  background-color:   darkolivegreen;/* Change background color on hover */
+}
+
+a{
+  text-decoration: none;
+}
+
+.footer {
+    display: block;
+    background-color: #222;
+    height: 20vw;
+    margin-top: 50px;
+    color: #ddd;
+}
+
+.feedback-container {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #ddd;
+}
+
+
+.feedback-img {
+    height: 90px; width: 80px;
+}
+
+.feedback-container a:hover img {
+  mix-blend-mode: hard-light;
+} 
+
+.stay-text-container{
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+.follow-text-container{
+  margin-left: 50px;
+}
+
+</style>
+</head>
+<body>
+
+    <nav>
+        <div class="img">
+        <img id="logo" src="tgm.png" style="width: 300px; height: 100px;"> 
+        </div>
+        <div id="navbar-right">
+          <ul><b>
+            <li><a href="webhome.html">HOME</a></li>
+            <li><a href="article.html">FUNFACTS</a></li>
+            <li><a class="active" href="vid.html">VIDEOS</a></li>
+            <li><a href="login.html" target="_self">HOW TO..?</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            </b>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<button class="my-button" style="margin-top: 50px; margin-left: 50px;"> 
+  <a href="vid.html">BACK
+</button> </a>
+
+<br>
+<!-- nani teri morni ko-->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="nani.jpg" alt="App" width="400" height="450" style="border-radius: 10px;">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>NANI TERI MORNI KO</b></h1>
+      <p> This is most popular Hindi Balgeet & Hindi Rhyme which all the Indian kids even today.<br><br>
+        "Nani Teri Morni ko Mor Le Gaye<br>
+        Baki Jo Bacha Tha Kale Chor Le Gaye"<br><br>
+        
+        See the naughty kids and Grand Mother-Nani having a great fun time together.</p>
+        <a href="n.html" target="_self"><button class="button" style="background-color:green">LET'S WATCH</button></a>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- lakdi ki kathi -->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="lakdi.jpg" alt="App" width="450" height="450" style="border-radius: 10px; padding-right: 10px;">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>LAKDI KI KATHI</b></h1>
+      <p>Lakdi Ki Kathi , is a classic example of Hindi Poem or Balgeet. 
+        This is a fun animated nursery rhyme for kids.<br><br> 
+        "Lakdi ki kathi, <br>
+        kathi pe ghoda ... "<br><br>
+        Is very popular Hindi song. 
+        Watch the animated version of this song.
+
+      </p>
+        <a href="k.html" target="_self"><button class="button" style="background-color:green">LET'S WATCH</button></a>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- wheels-->
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="wheels.jpg" alt="App" width="450px" height="400px" style="border-radius: 10px;">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>WHEELS ON THE BUS</b></h1>
+      <p>The wheels on the bus go round and round! Come and sing along to this classic nursery rhyme for kids.<br>
+        JJ and friends are taking a ride on the bus! 
+        Sing and dance along with them on their field trip
+      </p>
+        <a href="w.html" target="_self"><button class="button" style="background-color:green">LET'S WATCH</button></a>
+    </div>
+  </div>
+</div>
+
+<footer>
+    <div class="feedback-container"><a href="feedback.html"><img class="feedback-img" src="feedback.png"
+      alt="feedback"></a></div>
+    <div class="footer">
+  
+        <div>
+            <div class="stay-text-container">
+                <p><h1 style="color: white;">Stay connected</h1></p>
+            </div>
+            <div class="follow-text-container">
+                <p><h3>Follow us on our social media accounts to get even more refreshing content.</h3></p>
+                <img src="social.png" style="height: 150px; width: 150px;">
+            </div>
+          </div>
+  
+</footer>
+</body>
+</html>
